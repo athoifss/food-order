@@ -1,0 +1,78 @@
+.rootCard {
+  display: flex;
+  width: 430px;
+  height: 140px;
+  border: 1px solid rgba(1, 1, 1, 0.2);
+  border-radius: 10px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  position: relative;
+  box-shadow: 1px 2px 5px rgba(1, 1, 1, 0.2);
+  cursor: pointer;
+}
+.rootCard:hover {
+  transform: scale(1.05);
+  transition: all 0.5s;
+}
+.rootCard .left {
+  width: 140px;
+  height: 100%;
+}
+.rootCard .left img {
+  width: inherit;
+  height: 100%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.rootCard .right {
+  padding: 10px 10px;
+}
+.right .name {
+  font-size: 1.2em;
+  padding-bottom: 8px;
+  font-weight: bold;
+  padding-right: 50px;
+}
+.right .desc {
+  color: rgba(1, 1, 1, 0.5);
+  max-height: calc(var(--lh) * var(--max-lines));
+  overflow: hidden;
+  padding-bottom: 10px;
+  max-height: calc(20px * 3);
+  line-height: 20px;
+  overflow: hidden;
+  font-size: 0.9em;
+}
+.right .desc:after {
+  content: "";
+  position: absolute;
+  right: 0;
+  width: 1rem;
+  height: 1rem;
+  background: white;
+}
+.right .price {
+  font-size: 1.1em;
+  font-weight: bold;
+  position: absolute;
+  bottom: 10px;
+}
+
+.btnBuy {
+  position: absolute;
+  right: 10px;
+  bottom: 0px;
+  width: 90px;
+  height: 40px;
+  border: none;
+  background: none;
+  color: black !important;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 500px) {
+  .rootCard .left {
+    width: 100px;
+    height: 100%;
+  }
+}

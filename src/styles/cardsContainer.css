@@ -1,0 +1,18 @@
+.cardsContainerRoot {
+  padding: 20px 30px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.category {
+  padding: 10px 0;
+}
+.category h1 {
+  color: rgba(1, 1, 1, 0.6);
+  font-size: 1.2em;
+  text-transform: capitalize;
+  padding: 10px 0;
+}

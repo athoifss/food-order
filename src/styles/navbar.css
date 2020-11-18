@@ -1,0 +1,52 @@
+header {
+  height: 100px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  background: url("../images/navbar-bg.png");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  color: white;
+  font-size: 2em;
+  padding-left: 50px;
+  cursor: pointer;
+}
+
+header form {
+  padding-left: 50px;
+}
+header input {
+  border: none;
+  height: 100%;
+  width: 100%;
+  padding-left: 40px;
+  border-radius: 20px;
+  outline: none;
+}
+header .input {
+  height: 40px;
+  border-radius: 20px;
+  width: 500px;
+  position: relative;
+}
+header .searchIcon {
+  position: absolute;
+  left: 15px;
+  top: 28%;
+  color: rgba(1, 1, 1, 0.5);
+}
+
+@media only screen and (max-width: 790px) {
+  header {
+    flex-direction: column;
+  }
+  .logo {
+    padding-top: 10px;
+  }
+}

@@ -1,0 +1,17 @@
+.label {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  border: 1px solid rgba(1, 1, 1, 0.2);
+  display: flex;
+  justify-content: center;
+  width: 70px;
+  padding: 5px;
+  border-radius: 10px;
+  font-size: 0.9em;
+  color: rgba(1, 1, 1, 0.5);
+}
+.labelIcon {
+  color: red;
+  margin-right: 5px;
+}

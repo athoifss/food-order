@@ -1,0 +1,137 @@
+.modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modalContent {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border: none;
+  padding: 5px 20px;
+  background: white;
+  width: 620px;
+  height: 400px;
+}
+
+.top {
+  display: flex;
+  padding: 8px 20px;
+  color: #000000;
+  justify-content: center;
+  align-items: center;
+  background: white;
+}
+.close {
+  margin-left: auto;
+  background: #eeeeee;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 30px;
+  font-size: 1.5em;
+}
+
+.modalCard {
+  display: flex;
+  height: 100px;
+}
+.modalCard .left {
+  width: 100px;
+}
+.modalCard .left img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.modalCard .right {
+  padding-left: 10px;
+}
+
+.priceModal {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.line {
+  height: 2px;
+  width: 100%;
+  margin: 10px 0;
+  background-color: rgba(1, 1, 1, 0.1);
+}
+
+.heading {
+  color: black;
+  font-weight: bold;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+}
+
+.modal form {
+  display: flex;
+}
+.modal form .input {
+  width: 90%;
+  padding-bottom: 15px;
+}
+.modal form input {
+  width: 100%;
+  border: 1px solid rgba(1, 1, 1, 0.3);
+  border-radius: 5px;
+  height: 40px;
+  margin-top: 10px;
+}
+
+.modal form .left {
+  width: 40%;
+  padding-right: 10px;
+}
+.modal form .right {
+  padding-left: 20px;
+}
+
+.inputCardDate {
+  width: 50px !important;
+  text-align: center;
+}
+
+.modal form .right {
+  width: 60%;
+}
+
+.modal form .right .top {
+  display: flex;
+  align-items: flex-start;
+  height: 100%;
+}
+
+.modal form .right .bottom button {
+  margin-top: auto;
+  margin-bottom: 20px;
+  width: 100%;
+  height: 40px;
+  background: #ee5353;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.otpInput {
+  padding-left: 10px;
+  display: block;
+  width: 100%;
+}
+
+.btnSubmit {
+  margin-top: 10px;
+  width: 100%;
+  height: 40px;
+  background: #ee5353;
+  color: white;
+  border: none;
+  cursor: pointer;
+  display: block;
+}
